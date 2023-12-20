@@ -24,38 +24,36 @@ F 3 "" H 8550 8000 60  0000 C CNN
 	1    8550 8000
 	1    0    0    -1
 $EndComp
-Text GLabel 7500 7650 0    50   Input ~ 0
-row0
-Text GLabel 7500 7750 0    50   Input ~ 0
-row1
-Text GLabel 7500 7850 0    50   Input ~ 0
-row2
-Text GLabel 7500 7950 0    50   Input ~ 0
-row3
-Text GLabel 9650 8550 2    50   Input ~ 0
-row4
-Text GLabel 9650 8450 2    50   Input ~ 0
-row5
-Text GLabel 7500 8050 0    50   Input ~ 0
-col0
-Text GLabel 9650 8250 2    50   Input ~ 0
-col1
-Text GLabel 9650 8150 2    50   Input ~ 0
-col2
-Text GLabel 7500 8650 0    50   Input ~ 0
-col3
 Text GLabel 7500 8750 0    50   Input ~ 0
-col4
-Text GLabel 7500 8850 0    50   Input ~ 0
-col5
-Text GLabel 7500 8950 0    50   Input ~ 0
-col6
+row0
+Text GLabel 7500 8650 0    50   Input ~ 0
+row1
 Text GLabel 9650 8850 2    50   Input ~ 0
+row2
+Text GLabel 9650 8250 2    50   Input ~ 0
+row3
+Text GLabel 9650 8650 2    50   Input ~ 0
+row4
+Text GLabel 9650 8550 2    50   Input ~ 0
+row5
+Text GLabel 9650 8450 2    50   Input ~ 0
+col0
+Text GLabel 9650 7450 2    50   Input ~ 0
+col1
+Text GLabel 9650 7550 2    50   Input ~ 0
+col2
+Text GLabel 9650 7650 2    50   Input ~ 0
+col3
+Text GLabel 9650 7750 2    50   Input ~ 0
+col4
+Text GLabel 7500 7750 0    50   Input ~ 0
+col5
+Text GLabel 7500 7950 0    50   Input ~ 0
+col6
+Text GLabel 7500 7850 0    50   Input ~ 0
 col7
-Text GLabel 7500 9050 0    50   Input ~ 0
+Text GLabel 9650 8350 2    50   Input ~ 0
 col8
-Text GLabel 9650 8750 2    50   Input ~ 0
-col9
 $Comp
 L keyboard_parts:USB_mini_micro_B J1
 U 1 1 14A1
@@ -404,40 +402,8 @@ Wire Wire Line
 	9150 1000 9150 1100
 Connection ~ 9800 1000
 Connection ~ 9150 1400
-Text GLabel 10800 650 0    50   Input ~ 0
-col9
 Wire Wire Line
-	10800 650 10800 1000
-$Comp
-L keyboard_parts:KEYSW K_PRTSC
-U 1 1 91
-P 10500 1000
-F 0 "K_PRTSC" H 10500 1233 60  0000 C CNN
-F 1 "KEYSW" H 10500 900 60  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10500 1000 60  0001 C CNN
-F 3 "" H 10500 1000 60  0000 C CNN
-	1    10500 1000
-	1    0    0    -1
-$EndComp
-$Comp
-L Device:D D_PRTSC
-U 1 1 90
-P 10150 1250
-F 0 "D_PRTSC" V 10196 1171 50  0000 R CNN
-F 1 "D" V 10095 1171 50  0000 R CNN
-F 2 "keyboard_parts:D_SOD123_axial" H 10150 1250 50  0001 C CNN
-F 3 "~" H 10150 1250 50  0001 C CNN
-	1    10150  1250
-	0    -1   -1   0
-$EndComp
-Wire Wire Line
-	10200 1000 10150 1000
-Wire Wire Line
-	10150 1000 10150 1100
-Connection ~ 10800 1000
-Connection ~ 10150 1400
-Wire Wire Line
-	1150 1400 10150 1400
+	1150 1400 9150 1400
 Text GLabel 900 2400 0    50   Input ~ 0
 row1
 Wire Wire Line
@@ -667,35 +633,35 @@ Wire Wire Line
 Connection ~ 8800 2000
 Connection ~ 8150 2400
 $Comp
-L keyboard_parts:KEYSW K_DELETE
-U 1 1 121
-P 10500 2000
-F 0 "K_DELETE" H 10500 2233 60  0000 C CNN
-F 1 "KEYSW" H 10500 1900 60  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10500 2000 60  0001 C CNN
-F 3 "" H 10500 2000 60  0000 C CNN
-	1    10500 2000
+L keyboard_parts:KEYSW K_PRTSC
+U 1 1 91
+P 9500 2000
+F 0 "K_PRTSC" H 9500 2233 60  0000 C CNN
+F 1 "KEYSW" H 9500 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9500 2000 60  0001 C CNN
+F 3 "" H 9500 2000 60  0000 C CNN
+	1    9500 2000
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:D D_DELETE
-U 1 1 120
-P 10150 2250
-F 0 "D_DELETE" V 10196 2171 50  0000 R CNN
-F 1 "D" V 10095 2171 50  0000 R CNN
-F 2 "keyboard_parts:D_SOD123_axial" H 10150 2250 50  0001 C CNN
-F 3 "~" H 10150 2250 50  0001 C CNN
-	1    10150  2250
+L Device:D D_PRTSC
+U 1 1 90
+P 9150 2250
+F 0 "D_PRTSC" V 9196 2171 50  0000 R CNN
+F 1 "D" V 9095 2171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9150 2250 50  0001 C CNN
+F 3 "~" H 9150 2250 50  0001 C CNN
+	1    9150  2250
 	0    -1   -1   0
 $EndComp
 Wire Wire Line
-	10200 2000 10150 2000
+	9200 2000 9150 2000
 Wire Wire Line
-	10150 2000 10150 2100
-Connection ~ 10800 2000
-Connection ~ 10150 2400
+	9150 2000 9150 2100
+Connection ~ 9800 2000
+Connection ~ 9150 2400
 Wire Wire Line
-	1150 2400 10150 2400
+	1150 2400 9150 2400
 Text GLabel 900 3400 0    50   Input ~ 0
 row2
 Wire Wire Line
@@ -899,19 +865,47 @@ Connection ~ 7150 3400
 $Comp
 L keyboard_parts:KEYSW K_BSLSH
 U 1 1 1a1
-P 9500 3000
-F 0 "K_BSLSH" H 9500 3233 60  0000 C CNN
-F 1 "KEYSW" H 9500 2900 60  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.5U-NoLED" H 9500 3000 60  0001 C CNN
-F 3 "" H 9500 3000 60  0000 C CNN
-	1    9500 3000
+P 8500 3000
+F 0 "K_BSLSH" H 8500 3233 60  0000 C CNN
+F 1 "KEYSW" H 8500 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U-NoLED" H 8500 3000 60  0001 C CNN
+F 3 "" H 8500 3000 60  0000 C CNN
+	1    8500 3000
 	1    0    0    -1
 $EndComp
 $Comp
 L Device:D D_BSLSH
 U 1 1 1a0
+P 8150 3250
+F 0 "D_BSLSH" V 8196 3171 50  0000 R CNN
+F 1 "D" V 8095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8150 3250 50  0001 C CNN
+F 3 "~" H 8150 3250 50  0001 C CNN
+	1    8150  3250
+	0    -1   -1   0
+$EndComp
+Wire Wire Line
+	8200 3000 8150 3000
+Wire Wire Line
+	8150 3000 8150 3100
+Connection ~ 8800 3000
+Connection ~ 8150 3400
+$Comp
+L keyboard_parts:KEYSW K_DELETE
+U 1 1 121
+P 9500 3000
+F 0 "K_DELETE" H 9500 3233 60  0000 C CNN
+F 1 "KEYSW" H 9500 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9500 3000 60  0001 C CNN
+F 3 "" H 9500 3000 60  0000 C CNN
+	1    9500 3000
+	1    0    0    -1
+$EndComp
+$Comp
+L Device:D D_DELETE
+U 1 1 120
 P 9150 3250
-F 0 "D_BSLSH" V 9196 3171 50  0000 R CNN
+F 0 "D_DELETE" V 9196 3171 50  0000 R CNN
 F 1 "D" V 9095 3171 50  0000 R CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 9150 3250 50  0001 C CNN
 F 3 "~" H 9150 3250 50  0001 C CNN
@@ -924,36 +918,8 @@ Wire Wire Line
 	9150 3000 9150 3100
 Connection ~ 9800 3000
 Connection ~ 9150 3400
-$Comp
-L keyboard_parts:KEYSW K_HOME
-U 1 1 1b1
-P 10500 3000
-F 0 "K_HOME" H 10500 3233 60  0000 C CNN
-F 1 "KEYSW" H 10500 2900 60  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10500 3000 60  0001 C CNN
-F 3 "" H 10500 3000 60  0000 C CNN
-	1    10500 3000
-	1    0    0    -1
-$EndComp
-$Comp
-L Device:D D_HOME
-U 1 1 1b0
-P 10150 3250
-F 0 "D_HOME" V 10196 3171 50  0000 R CNN
-F 1 "D" V 10095 3171 50  0000 R CNN
-F 2 "keyboard_parts:D_SOD123_axial" H 10150 3250 50  0001 C CNN
-F 3 "~" H 10150 3250 50  0001 C CNN
-	1    10150  3250
-	0    -1   -1   0
-$EndComp
 Wire Wire Line
-	10200 3000 10150 3000
-Wire Wire Line
-	10150 3000 10150 3100
-Connection ~ 10800 3000
-Connection ~ 10150 3400
-Wire Wire Line
-	1150 3400 10150 3400
+	1150 3400 9150 3400
 Text GLabel 900 4400 0    50   Input ~ 0
 row3
 Wire Wire Line
@@ -1129,61 +1095,61 @@ Connection ~ 6150 4400
 $Comp
 L keyboard_parts:KEYSW K_ENTER
 U 1 1 221
-P 8500 4000
-F 0 "K_ENTER" H 8500 4233 60  0000 C CNN
-F 1 "KEYSW" H 8500 3900 60  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-2.25U-NoLED" H 8500 4000 60  0001 C CNN
-F 3 "" H 8500 4000 60  0000 C CNN
-	1    8500 4000
+P 7500 4000
+F 0 "K_ENTER" H 7500 4233 60  0000 C CNN
+F 1 "KEYSW" H 7500 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.25U-NoLED" H 7500 4000 60  0001 C CNN
+F 3 "" H 7500 4000 60  0000 C CNN
+	1    7500 4000
 	1    0    0    -1
 $EndComp
 $Comp
 L Device:D D_ENTER
 U 1 1 220
-P 8150 4250
-F 0 "D_ENTER" V 8196 4171 50  0000 R CNN
-F 1 "D" V 8095 4171 50  0000 R CNN
-F 2 "keyboard_parts:D_SOD123_axial" H 8150 4250 50  0001 C CNN
-F 3 "~" H 8150 4250 50  0001 C CNN
-	1    8150  4250
+P 7150 4250
+F 0 "D_ENTER" V 7196 4171 50  0000 R CNN
+F 1 "D" V 7095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7150 4250 50  0001 C CNN
+F 3 "~" H 7150 4250 50  0001 C CNN
+	1    7150  4250
 	0    -1   -1   0
 $EndComp
 Wire Wire Line
-	8200 4000 8150 4000
+	7200 4000 7150 4000
 Wire Wire Line
-	8150 4000 8150 4100
-Connection ~ 8800 4000
-Connection ~ 8150 4400
+	7150 4000 7150 4100
+Connection ~ 7800 4000
+Connection ~ 7150 4400
 $Comp
-L keyboard_parts:KEYSW K_END
-U 1 1 231
-P 10500 4000
-F 0 "K_END" H 10500 4233 60  0000 C CNN
-F 1 "KEYSW" H 10500 3900 60  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10500 4000 60  0001 C CNN
-F 3 "" H 10500 4000 60  0000 C CNN
-	1    10500 4000
+L keyboard_parts:KEYSW K_HOME
+U 1 1 1b1
+P 9500 4000
+F 0 "K_HOME" H 9500 4233 60  0000 C CNN
+F 1 "KEYSW" H 9500 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9500 4000 60  0001 C CNN
+F 3 "" H 9500 4000 60  0000 C CNN
+	1    9500 4000
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:D D_END
-U 1 1 230
-P 10150 4250
-F 0 "D_END" V 10196 4171 50  0000 R CNN
-F 1 "D" V 10095 4171 50  0000 R CNN
-F 2 "keyboard_parts:D_SOD123_axial" H 10150 4250 50  0001 C CNN
-F 3 "~" H 10150 4250 50  0001 C CNN
-	1    10150  4250
+L Device:D D_HOME
+U 1 1 1b0
+P 9150 4250
+F 0 "D_HOME" V 9196 4171 50  0000 R CNN
+F 1 "D" V 9095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9150 4250 50  0001 C CNN
+F 3 "~" H 9150 4250 50  0001 C CNN
+	1    9150  4250
 	0    -1   -1   0
 $EndComp
 Wire Wire Line
-	10200 4000 10150 4000
+	9200 4000 9150 4000
 Wire Wire Line
-	10150 4000 10150 4100
-Connection ~ 10800 4000
-Connection ~ 10150 4400
+	9150 4000 9150 4100
+Connection ~ 9800 4000
+Connection ~ 9150 4400
 Wire Wire Line
-	1150 4400 10150 4400
+	1150 4400 9150 4400
 Text GLabel 900 5400 0    50   Input ~ 0
 row4
 Wire Wire Line
@@ -1387,8 +1353,36 @@ Connection ~ 7150 5400
 $Comp
 L keyboard_parts:KEYSW K_UP
 U 1 1 2b1
+P 8500 5000
+F 0 "K_UP" H 8500 5233 60  0000 C CNN
+F 1 "KEYSW" H 8500 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8500 5000 60  0001 C CNN
+F 3 "" H 8500 5000 60  0000 C CNN
+	1    8500 5000
+	1    0    0    -1
+$EndComp
+$Comp
+L Device:D D_UP
+U 1 1 2b0
+P 8150 5250
+F 0 "D_UP" V 8196 5171 50  0000 R CNN
+F 1 "D" V 8095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8150 5250 50  0001 C CNN
+F 3 "~" H 8150 5250 50  0001 C CNN
+	1    8150  5250
+	0    -1   -1   0
+$EndComp
+Wire Wire Line
+	8200 5000 8150 5000
+Wire Wire Line
+	8150 5000 8150 5100
+Connection ~ 8800 5000
+Connection ~ 8150 5400
+$Comp
+L keyboard_parts:KEYSW K_END
+U 1 1 231
 P 9500 5000
-F 0 "K_UP" H 9500 5233 60  0000 C CNN
+F 0 "K_END" H 9500 5233 60  0000 C CNN
 F 1 "KEYSW" H 9500 4900 60  0001 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9500 5000 60  0001 C CNN
 F 3 "" H 9500 5000 60  0000 C CNN
@@ -1396,10 +1390,10 @@ F 3 "" H 9500 5000 60  0000 C CNN
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:D D_UP
-U 1 1 2b0
+L Device:D D_END
+U 1 1 230
 P 9150 5250
-F 0 "D_UP" V 9196 5171 50  0000 R CNN
+F 0 "D_END" V 9196 5171 50  0000 R CNN
 F 1 "D" V 9095 5171 50  0000 R CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 9150 5250 50  0001 C CNN
 F 3 "~" H 9150 5250 50  0001 C CNN
@@ -1449,8 +1443,64 @@ Connection ~ 1150 6400
 $Comp
 L keyboard_parts:KEYSW K_ALT
 U 1 1 2c1
+P 2500 6000
+F 0 "K_ALT" H 2500 6233 60  0000 C CNN
+F 1 "KEYSW" H 2500 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2500 6000 60  0001 C CNN
+F 3 "" H 2500 6000 60  0000 C CNN
+	1    2500 6000
+	1    0    0    -1
+$EndComp
+$Comp
+L Device:D D_ALT
+U 1 1 2c0
+P 2150 6250
+F 0 "D_ALT" V 2196 6171 50  0000 R CNN
+F 1 "D" V 2095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2150 6250 50  0001 C CNN
+F 3 "~" H 2150 6250 50  0001 C CNN
+	1    2150  6250
+	0    -1   -1   0
+$EndComp
+Wire Wire Line
+	2200 6000 2150 6000
+Wire Wire Line
+	2150 6000 2150 6100
+Connection ~ 2800 6000
+Connection ~ 2150 6400
+$Comp
+L keyboard_parts:KEYSW K_WIN
+U 1 1 2d1
+P 3500 6000
+F 0 "K_WIN" H 3500 6233 60  0000 C CNN
+F 1 "KEYSW" H 3500 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3500 6000 60  0001 C CNN
+F 3 "" H 3500 6000 60  0000 C CNN
+	1    3500 6000
+	1    0    0    -1
+$EndComp
+$Comp
+L Device:D D_WIN
+U 1 1 2d0
+P 3150 6250
+F 0 "D_WIN" V 3196 6171 50  0000 R CNN
+F 1 "D" V 3095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3150 6250 50  0001 C CNN
+F 3 "~" H 3150 6250 50  0001 C CNN
+	1    3150  6250
+	0    -1   -1   0
+$EndComp
+Wire Wire Line
+	3200 6000 3150 6000
+Wire Wire Line
+	3150 6000 3150 6100
+Connection ~ 3800 6000
+Connection ~ 3150 6400
+$Comp
+L keyboard_parts:KEYSW K_FN
+U 1 1 2e1
 P 4500 6000
-F 0 "K_ALT" H 4500 6233 60  0000 C CNN
+F 0 "K_FN" H 4500 6233 60  0000 C CNN
 F 1 "KEYSW" H 4500 5900 60  0001 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4500 6000 60  0001 C CNN
 F 3 "" H 4500 6000 60  0000 C CNN
@@ -1458,10 +1508,10 @@ F 3 "" H 4500 6000 60  0000 C CNN
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:D D_ALT
-U 1 1 2c0
+L Device:D D_FN
+U 1 1 2e0
 P 4150 6250
-F 0 "D_ALT" V 4196 6171 50  0000 R CNN
+F 0 "D_FN" V 4196 6171 50  0000 R CNN
 F 1 "D" V 4095 6171 50  0000 R CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 4150 6250 50  0001 C CNN
 F 3 "~" H 4150 6250 50  0001 C CNN
@@ -1475,10 +1525,10 @@ Wire Wire Line
 Connection ~ 4800 6000
 Connection ~ 4150 6400
 $Comp
-L keyboard_parts:KEYSW K_WIN
-U 1 1 2d1
+L keyboard_parts:KEYSW K_CTRL
+U 1 1 2f1
 P 5500 6000
-F 0 "K_WIN" H 5500 6233 60  0000 C CNN
+F 0 "K_CTRL" H 5500 6233 60  0000 C CNN
 F 1 "KEYSW" H 5500 5900 60  0001 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5500 6000 60  0001 C CNN
 F 3 "" H 5500 6000 60  0000 C CNN
@@ -1486,10 +1536,10 @@ F 3 "" H 5500 6000 60  0000 C CNN
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:D D_WIN
-U 1 1 2d0
+L Device:D D_CTRL
+U 1 1 2f0
 P 5150 6250
-F 0 "D_WIN" V 5196 6171 50  0000 R CNN
+F 0 "D_CTRL" V 5196 6171 50  0000 R CNN
 F 1 "D" V 5095 6171 50  0000 R CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 5150 6250 50  0001 C CNN
 F 3 "~" H 5150 6250 50  0001 C CNN
@@ -1503,10 +1553,10 @@ Wire Wire Line
 Connection ~ 5800 6000
 Connection ~ 5150 6400
 $Comp
-L keyboard_parts:KEYSW K_FN
-U 1 1 2e1
+L keyboard_parts:KEYSW K_LEFT
+U 1 1 301
 P 6500 6000
-F 0 "K_FN" H 6500 6233 60  0000 C CNN
+F 0 "K_LEFT" H 6500 6233 60  0000 C CNN
 F 1 "KEYSW" H 6500 5900 60  0001 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6500 6000 60  0001 C CNN
 F 3 "" H 6500 6000 60  0000 C CNN
@@ -1514,10 +1564,10 @@ F 3 "" H 6500 6000 60  0000 C CNN
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:D D_FN
-U 1 1 2e0
+L Device:D D_LEFT
+U 1 1 300
 P 6150 6250
-F 0 "D_FN" V 6196 6171 50  0000 R CNN
+F 0 "D_LEFT" V 6196 6171 50  0000 R CNN
 F 1 "D" V 6095 6171 50  0000 R CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 6150 6250 50  0001 C CNN
 F 3 "~" H 6150 6250 50  0001 C CNN
@@ -1531,10 +1581,10 @@ Wire Wire Line
 Connection ~ 6800 6000
 Connection ~ 6150 6400
 $Comp
-L keyboard_parts:KEYSW K_CTRL
-U 1 1 2f1
+L keyboard_parts:KEYSW K_DOWN
+U 1 1 311
 P 7500 6000
-F 0 "K_CTRL" H 7500 6233 60  0000 C CNN
+F 0 "K_DOWN" H 7500 6233 60  0000 C CNN
 F 1 "KEYSW" H 7500 5900 60  0001 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7500 6000 60  0001 C CNN
 F 3 "" H 7500 6000 60  0000 C CNN
@@ -1542,10 +1592,10 @@ F 3 "" H 7500 6000 60  0000 C CNN
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:D D_CTRL
-U 1 1 2f0
+L Device:D D_DOWN
+U 1 1 310
 P 7150 6250
-F 0 "D_CTRL" V 7196 6171 50  0000 R CNN
+F 0 "D_DOWN" V 7196 6171 50  0000 R CNN
 F 1 "D" V 7095 6171 50  0000 R CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 7150 6250 50  0001 C CNN
 F 3 "~" H 7150 6250 50  0001 C CNN
@@ -1559,10 +1609,10 @@ Wire Wire Line
 Connection ~ 7800 6000
 Connection ~ 7150 6400
 $Comp
-L keyboard_parts:KEYSW K_LEFT
-U 1 1 301
+L keyboard_parts:KEYSW K_RIGHT
+U 1 1 321
 P 8500 6000
-F 0 "K_LEFT" H 8500 6233 60  0000 C CNN
+F 0 "K_RIGHT" H 8500 6233 60  0000 C CNN
 F 1 "KEYSW" H 8500 5900 60  0001 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8500 6000 60  0001 C CNN
 F 3 "" H 8500 6000 60  0000 C CNN
@@ -1570,10 +1620,10 @@ F 3 "" H 8500 6000 60  0000 C CNN
 	1    0    0    -1
 $EndComp
 $Comp
-L Device:D D_LEFT
-U 1 1 300
+L Device:D D_RIGHT
+U 1 1 320
 P 8150 6250
-F 0 "D_LEFT" V 8196 6171 50  0000 R CNN
+F 0 "D_RIGHT" V 8196 6171 50  0000 R CNN
 F 1 "D" V 8095 6171 50  0000 R CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 8150 6250 50  0001 C CNN
 F 3 "~" H 8150 6250 50  0001 C CNN
@@ -1586,70 +1636,14 @@ Wire Wire Line
 	8150 6000 8150 6100
 Connection ~ 8800 6000
 Connection ~ 8150 6400
-$Comp
-L keyboard_parts:KEYSW K_DOWN
-U 1 1 311
-P 9500 6000
-F 0 "K_DOWN" H 9500 6233 60  0000 C CNN
-F 1 "KEYSW" H 9500 5900 60  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9500 6000 60  0001 C CNN
-F 3 "" H 9500 6000 60  0000 C CNN
-	1    9500 6000
-	1    0    0    -1
-$EndComp
-$Comp
-L Device:D D_DOWN
-U 1 1 310
-P 9150 6250
-F 0 "D_DOWN" V 9196 6171 50  0000 R CNN
-F 1 "D" V 9095 6171 50  0000 R CNN
-F 2 "keyboard_parts:D_SOD123_axial" H 9150 6250 50  0001 C CNN
-F 3 "~" H 9150 6250 50  0001 C CNN
-	1    9150  6250
-	0    -1   -1   0
-$EndComp
 Wire Wire Line
-	9200 6000 9150 6000
-Wire Wire Line
-	9150 6000 9150 6100
-Connection ~ 9800 6000
-Connection ~ 9150 6400
-$Comp
-L keyboard_parts:KEYSW K_RIGHT
-U 1 1 321
-P 10500 6000
-F 0 "K_RIGHT" H 10500 6233 60  0000 C CNN
-F 1 "KEYSW" H 10500 5900 60  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10500 6000 60  0001 C CNN
-F 3 "" H 10500 6000 60  0000 C CNN
-	1    10500 6000
-	1    0    0    -1
-$EndComp
-$Comp
-L Device:D D_RIGHT
-U 1 1 320
-P 10150 6250
-F 0 "D_RIGHT" V 10196 6171 50  0000 R CNN
-F 1 "D" V 10095 6171 50  0000 R CNN
-F 2 "keyboard_parts:D_SOD123_axial" H 10150 6250 50  0001 C CNN
-F 3 "~" H 10150 6250 50  0001 C CNN
-	1    10150  6250
-	0    -1   -1   0
-$EndComp
-Wire Wire Line
-	10200 6000 10150 6000
-Wire Wire Line
-	10150 6000 10150 6100
-Connection ~ 10800 6000
-Connection ~ 10150 6400
-Wire Wire Line
-	1150 6400 10150 6400
+	1150 6400 8150 6400
 Wire Wire Line
 	1800 6000 1800 1000
 Wire Wire Line
-	2800 5000 2800 1000
+	2800 6000 2800 1000
 Wire Wire Line
-	3800 5000 3800 1000
+	3800 6000 3800 1000
 Wire Wire Line
 	4800 6000 4800 1000
 Wire Wire Line
@@ -1661,7 +1655,5 @@ Wire Wire Line
 Wire Wire Line
 	8800 6000 8800 1000
 Wire Wire Line
-	9800 6000 9800 1000
-Wire Wire Line
-	10800 6000 10800 1000
+	9800 5000 9800 1000
 $EndSCHEMATC

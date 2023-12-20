@@ -474,10 +474,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "/col10"
-      },
-      {
-        "netclass": "Default",
         "pattern": "/row0"
       },
       {
@@ -722,30 +718,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_PRTSC-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(K_PRTSC-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(K_PRTSC-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(K_PRTSC-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D_PRTSC-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D_PRTSC-Pad2)"
-      },
-      {
-        "netclass": "Default",
         "pattern": "Net-(K_6-Pad1)"
       },
       {
@@ -938,27 +910,27 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_DELETE-Pad1)"
+        "pattern": "Net-(K_PRTSC-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_DELETE-Pad2)"
+        "pattern": "Net-(K_PRTSC-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_DELETE-Pad3)"
+        "pattern": "Net-(K_PRTSC-Pad3)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_DELETE-Pad4)"
+        "pattern": "Net-(K_PRTSC-Pad4)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(D_DELETE-Pad1)"
+        "pattern": "Net-(D_PRTSC-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(D_DELETE-Pad2)"
+        "pattern": "Net-(D_PRTSC-Pad2)"
       },
       {
         "netclass": "Default",
@@ -1154,27 +1126,27 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_HOME-Pad1)"
+        "pattern": "Net-(K_DELETE-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_HOME-Pad2)"
+        "pattern": "Net-(K_DELETE-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_HOME-Pad3)"
+        "pattern": "Net-(K_DELETE-Pad3)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_HOME-Pad4)"
+        "pattern": "Net-(K_DELETE-Pad4)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(D_HOME-Pad1)"
+        "pattern": "Net-(D_DELETE-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(D_HOME-Pad2)"
+        "pattern": "Net-(D_DELETE-Pad2)"
       },
       {
         "netclass": "Default",
@@ -1346,27 +1318,27 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_END-Pad1)"
+        "pattern": "Net-(K_HOME-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_END-Pad2)"
+        "pattern": "Net-(K_HOME-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_END-Pad3)"
+        "pattern": "Net-(K_HOME-Pad3)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K_END-Pad4)"
+        "pattern": "Net-(K_HOME-Pad4)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(D_END-Pad1)"
+        "pattern": "Net-(D_HOME-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(D_END-Pad2)"
+        "pattern": "Net-(D_HOME-Pad2)"
       },
       {
         "netclass": "Default",
@@ -1559,6 +1531,30 @@
       {
         "netclass": "Default",
         "pattern": "Net-(D_UP-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(K_END-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(K_END-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(K_END-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(K_END-Pad4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D_END-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D_END-Pad2)"
       },
       {
         "netclass": "Default",
@@ -2105,7 +2101,7 @@
   },
   "sheets": [
     [
-      "b74b8d86-4c0f-42d9-b8ce-9b09777095af",
+      "fde14ef3-a914-45bd-9161-54df5efce2b2",
       ""
     ]
   ],
